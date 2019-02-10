@@ -16,7 +16,7 @@ body {
     background-image: linear-gradient(to top right, rgb(109, 165, 207), rgb(180, 79, 79));
 }
 
-.help {
+.help, i {
     text-align: center;
     font-style: italic;
     font-weight: normal;
@@ -94,4 +94,23 @@ textarea {
 .requ {
     display: inline;
     color: red;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+}
+
+img:hover {
+    transform: scale(20);
+    transition-delay: 0.2s;
+    transition-duration: 3s;
+}
+
+
+.helpForm {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 25px;
 }
