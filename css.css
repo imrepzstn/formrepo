@@ -11,6 +11,7 @@ body {
     font-family: 'Staatliches', cursive;
     text-align: center;
     font-size: 2rem;
+    font-weight: normal;
     color: white;
     background-image: linear-gradient(to top right, rgb(109, 165, 207), rgb(180, 79, 79));
 }
@@ -18,6 +19,7 @@ body {
 .help {
     text-align: center;
     font-style: italic;
+    font-weight: normal;
     color: rgb(110, 110, 110);
     padding: 10px;
     margin-top: 2px;
@@ -67,6 +69,10 @@ input, select {
     text-align: left;
 }
 
+#f1 label {
+    font-weight: normal;
+}
+
 textarea {
     display: block;
     margin: auto;
@@ -79,6 +85,13 @@ textarea {
 }
 
 #checky {
+    padding: 10px;
+    line-height: 25px;
     display: block;
     text-align: center;
+}
+
+.requ {
+    display: inline;
+    color: red;
 }

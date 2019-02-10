@@ -20,7 +20,7 @@
             <Legend>Tessék csak kitölteni az alábbi űrlapot!</Legend>
             <hr>
             <label for="name">Teljes név: </label><br>
-            <select name="title" id="title" class="input1">
+            <select name="title" id="title" class="input1" required class="required">
                 <option value="-">-</option>
                 <option value="Hölgy">Hölgy</option>
                 <option value="Úr.">Úr.</option>
@@ -29,10 +29,10 @@
                 <option value="Prof">Prof.</option>
                 <option value="Hercegnő">Hercegnő</option>
             </select>
-            <input type="text" name="name" id="name" placeholder="Példa Név"> <br> <label for="arckep">Tölts fel arcképet: </label> <input type="file" name="" id="" class="input1"> <br>
-            <label for="email">E-mail: </label> <br> <input type="email" name="email" id="email" class="input1" placeholder="pelda@email.com"> <br>
+            <input type="text" name="name" id="name" placeholder="Példa Név" required class="required"><div class="requ">*</div> <br> <label for="arckep">Tölts fel arcképet: </label> <input type="file" name="" id="" class="input1" required class="required"><div class="requ">*</div> <br>
+            <label for="email">E-mail: </label> <br> <input type="email" name="email" id="email" class="input1" placeholder="pelda@email.com" required class="required"><div class="requ">*</div> <br>
             <label for="zip">Irányítószám:</label> <br>
-            <input type="text" name="zipcode" id="zip" placeholder="1234" pattern="[1-9]\d\d\d" class="input1">
+            <input type="text" name="zipcode" id="zip" placeholder="1234" pattern="[1-9]\d\d\d" class="input1" required class="required"><div class="requ">*</div>
             <br>
             <label for="birth">Születési dátum: </label> <br>
             <input type="date" name="" id="" class="input1"> <br>
