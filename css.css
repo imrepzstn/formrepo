@@ -1,4 +1,6 @@
-
+body {
+    background-color: rgb(225, 229, 238);
+}
 .header h1 {
     display: block;
     max-width: 100%;
@@ -8,6 +10,25 @@
     text-align: center;
     font-size: 2rem;
     color: white;
-    background-image: linear-gradient(to top right, #88CCFF, #E66666);
+    background-image: linear-gradient(to top right, rgb(109, 165, 207), rgb(180, 79, 79));
 }
 
+.help {
+    text-align: center;
+    font-style: italic;
+    color: rgb(110, 110, 110);
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.849);
+    width: 800px;
+    margin: auto;
+    margin-top: 0;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 15px;
+    line-height: 30px;
+}
