@@ -1,0 +1,12 @@
+
+.header h1 {
+    display: block;
+    max-width: 100%;
+    padding: 40px;
+    left: 0;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-image: linear-gradient(to top right, #88CCFF, #E66666);
+}
